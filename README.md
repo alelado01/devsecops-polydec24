@@ -23,8 +23,9 @@ This is for EDUCATION purpose ONLY.
 ## Exercice
 
 /!\ Note : for education purpose, you should NOT use the template workflow but only the manual setup.
+You'll have until the end of the course to finish the work and send to it [benjamin.hilaire@amadeus.com](mailto:benjamin.hilaire@amadeus.com).
 
-### Exercice 1 : Hello World
+### Exercice 1 : Hello World (20 minutes)
 
 1. Create a workflow file
 2. EXIT : the workflow must PASS and echo the content of `hello_world.txt`
@@ -35,7 +36,7 @@ This is for EDUCATION purpose ONLY.
 - Screenshot of the ECHO in the build
 
 
-### Exercice 2 : Build and Test
+### Exercice 2 : Build and Test (30 minutes)
 
 1. Create a new workflow file
 2. The workflow must build (`npm run build`) the application in 1 step and execute tests (`npm test`) in another
@@ -46,7 +47,7 @@ This is for EDUCATION purpose ONLY.
 - URL of the BUILD (https://github.com/...../actions/runs/12098085715)
 - Screenshot of the TEST logs
 
-### Exercice 3 : Execute SCA
+### Exercice 3 : Execute SCA (20 minutes)
 This exercice is NOT in the previous tutorial but based on the previous exercice. The goal is to run an SCA, find vulnerabilities and fix them.
 
 1. Update the workflow from exercice 2
@@ -61,9 +62,9 @@ This exercice is NOT in the previous tutorial but based on the previous exercice
 - SCA finding (dependency name and version)
 - Fix proposal
 
-### Exercice 4 : Execute a SAST
+### Exercice 4 : Execute a SAST (50 minutes)
 This exercice is NOT in the previous tutorial but based on the previous exercice. The goal is to run an SAST, find 2 critical vulnerabilities and fix them.
-HINT : for differents reason, you may need to find a SAST tool that starts with a B.
+HINT : for differents reason, you can use the tool [BEARER](https://docs.bearer.com) and integrate it in the build workflow.
 
 1. Update or create a new workflow
 2. The workflow must execute a SAST to find issues in code
@@ -75,6 +76,12 @@ HINT : for differents reason, you may need to find a SAST tool that starts with 
 - Screenshot of the SAST critical findings
 - URL of the BUILD (https://github.com/...../actions/runs/12098085715)
 - SAST findings (files + lines + CWEs + small explanation about the risks) 
+
+## Lab Grading
+- Expected format is WORD/PDF/Email with explanations
+- 4 exercices, 5 points each
+- Max points are given ONLY if all results are present (read carefully)
+- Explanation of success or failure is always welcome !
 
 ## Going further
 
